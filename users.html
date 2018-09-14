@@ -1,19 +1,64 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Users </title>
-  <meta name="description" content="lab1">
-  <meta name="author" content="akrava">
-</head>
-<body>
-  <h1>Users</h1>
-  <p>You can see each user</p>
-  <ul>
-    <li><a href="user1.html">User 1</a></li></li>
-    <li><a href="user2.html">User 2</a></li></li>
-  </ul>
-  <hr>
-  <p>Go back <a href="index.html">to main</a> page</p>
-</body>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Користувачі</title>
+        <meta name="description" content="lab1">
+        <meta name="author" content="akrava">
+        <link rel="stylesheet" type="text/css" href="stylesheets/style.css"/>
+    </head>
+    <body>
+        <div class="wrapper center">
+            <div class="header">
+                <div class="logo center">
+                    <a href="index.html"><img src="images/logo.png" alt="logo of company"></a>
+                    <span><a href="index.html">Rapid delivery</a></span>
+                </div>
+                <nav class="center"> 
+                    <ul>
+                        <li><a href="index.html">Головна</a></li>
+                        <li><a class="link-selected" href="users.html">Користувачі</a></li>
+                        <li><a href="invoices.html">Транспортні накладні</a></li>
+                        <li><a href="about.html">Про компанію</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="content">
+                <h1>Cписок користувачів</h1>
+                <p>Нижче в <i>таблиці</i> наведені всі користувачі даного онлайн-сервісу.</p>
+                <p>Також можна переглянути персональну сторінку кожного з користувачів.</p>
+                <table class="center styled" id="users">
+                    <thead>
+                        <tr>
+                            <th>Login</th>
+                            <th>Повне ім'я</th>
+                            <th>Дата реєстрації</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a target="_blank" href="users/1.html">sevenArmy2013</a></td>
+                            <td><a target="_blank" href="users/1.html">John Doe</a></td>
+                            <td>12.03.2016 16:23:54</td>
+                        </tr>
+                        <tr>
+                            <td><a target="_blank" href="users/2.html">jano4ek_thms</a></td>
+                            <td><a target="_blank" href="users/2.html">Jason Thompson</a></td>
+                            <td>30.10.2018 09:18:37</td>
+                        </tr>
+                        <tr>
+                            <td><a target="_blank" href="users/3.html">white_stripes</a></td>
+                            <td><a target="_blank" href="users/3.html">Meg White</a></td>
+                            <td>03.09.2017 23:47:06</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>
+                    Кожна сторінка користувача містить в собі інформацію про нього. Таким чином
+                    можна побачити фотокартку, повне ім'я, дату реєстрації та біографію кожного 
+                    учасника.
+                </p>
+            </div>  
+        </div>
+    </body>
 </html>
