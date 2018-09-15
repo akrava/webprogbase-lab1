@@ -1,5 +1,6 @@
 html {
     font-family: sans-serif;
+    height: 100%;
 }
 
 body {
@@ -298,6 +299,45 @@ table.styled caption {
 table.captioned {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+}
+
+#github-link {
+    background: url(../images/GitHub-Mark-32px.png) no-repeat 0/20px;
+    padding-left: 24px;
+    color: #171516;
+    border-color: #03090e;
+}
+
+#tg-link {
+    background: url(../images/logotype-telegram.png) no-repeat 0/20px;
+    padding-left: 24px;
+    margin-left: 10px;
+    color: #0a6a93;
+    border-color: #5faaed;
+}
+
+#credits {
+    display: table;
+    font: 16px monospace;
+}
+
+address.location {
+    padding: 20px;
+    background-color: #f5bf6e;
+    border-radius: 15px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.location div {
+    width: 44%;
+    float: left;
+    text-align: left;
+}
+
+#map {
+    width: 54%;
 }
 
 img.left-float {
